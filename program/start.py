@@ -87,16 +87,16 @@ async def start_(c: Client, message: Message):
         f"""Hi {message.from_user.mention()} 👋🏻\n
 💭 [{me_bot.first_name}](https://t.me/{me_bot.username}) is a bot to play music and video in groups, through the new Telegram video chats.
 
-🕵🏻 Check out all the **Bot's commands** and how they work by clicking on the » 📚 **Commands** button!
+🕵🏻 Check out all the **Bot's commands** and how they work by clicking on the »  **Commands** button!
 
 🧑🏻‍💻 To know how to use this bot, please click on the » ❓ **Basic Guide** button!
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("➕ Add me to a Group ➕", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton("💞 Add me to a Group 💞", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
-                    InlineKeyboardButton("❓ Basic Guide", callback_data="user_guide")
+                    InlineKeyboardButton("❣️ Basic Guide", callback_data="user_guide")
                 ],[
                     InlineKeyboardButton("📚 Commands", callback_data="command_list"),
                     InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_USERNAME}")
@@ -104,7 +104,7 @@ async def start_(c: Client, message: Message):
                     InlineKeyboardButton("👥 Support Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                     InlineKeyboardButton("📣 Support Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
-                    InlineKeyboardButton("🌐 Source Code", url="https://github.com/levina-lab/video-stream")
+                    InlineKeyboardButton("Support group", url="https://t.me/liu_WULANG_MONKES")
                 ],
             ]
         ),
@@ -146,7 +146,7 @@ async def ping_pong(c: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 PONG !\n" f"⏱ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 PONG Bruce le music system!\n" f"⏱ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
