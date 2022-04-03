@@ -212,7 +212,7 @@ async def audio_stream(c: Client, m: Message):
                     await play_tg_file(c, m, link=i)
                 continue
         else:
-            suhu = await c.send_message(chat_id, "🔍 **Loading...**")
+            suhu = await c.send_message(chat_id, "Wait **wait my babe ...**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
