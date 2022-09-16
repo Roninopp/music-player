@@ -5,20 +5,20 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("7217645"))
+API_HASH = getenv("78ba6352dd5cdc166fdef5aa84ba7c67")
 BOT_TOKEN = getenv("BOT_TOKEN")
 SESSION_NAME = getenv("SESSION_NAME", "session")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-ALIVE_NAME = getenv("ALIVE_NAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
+OWNER_USERNAME = getenv("Dushmanxronin")
+ALIVE_NAME = getenv("Fantastic")
+BOT_USERNAME = getenv("fantasticfighterbot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "imperial_arena")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "imperial_arena")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL")
