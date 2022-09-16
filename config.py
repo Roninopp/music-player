@@ -5,7 +5,7 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("7217645"))
+API_ID = int(getenv("7217645")
 API_HASH = getenv("78ba6352dd5cdc166fdef5aa84ba7c67")
 BOT_TOKEN = getenv("2100096282:AAHFgMRR_kkW_Mj05OyunSrjMrnhIk3VnEc")
 SESSION_NAME = getenv("SESSION_NAME", "BQDBd2sYonPAV2YF2P8z9sMW-ekFcP37K_BemckMz-V_SRsVMZgC0wMw7sWbJsF9iAVaTO2_E8Tn7jqbgbcWZSgCNjO-vWzfJJFP5xA2sKSN5OysVrw3u3LFzArVpCEl9B6ihpXcbmXDwSvan46PfSShTIE5aoj4d_dbAjNjxi9hnDNLXWoCOfGL-ldBj5nL47XchebwE4LU91MlsgMJ1I2yftvoC5GVFzpWrmVQch_4lU1peCsbP81L5RHYCJMPhvyqdmr9ADOh0U6UYBLY2V4S8_qcik8RI13JlS5-NA3F_kQur_Urjb2lATGJ9DVmEeaLUDgLIJfGgPohHhDBOUWkAAAAAS3VP2UA")
